@@ -7,37 +7,61 @@
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background: #0f172a; color: white; line-height: 1.6; }
         nav { padding: 20px; background: #1e293b; display: flex; justify-content: center; gap: 30px; border-bottom: 2px solid #334155; }
-        nav a { color: #cbd5e1; text-decoration: none; font-weight: 600; }
+        nav a { color: #cbd5e1; text-decoration: none; font-weight: 600; transition: 0.3s; }
         nav a:hover { color: #fbbf24; }
+        
         .container { max-width: 800px; margin: 50px auto; padding: 40px; background: #1e293b; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         h1 { color: #fbbf24; border-bottom: 2px solid #334155; padding-bottom: 15px; font-size: 2.5em; text-align: center; }
         h2 { color: #e2e8f0; font-size: 1.4em; margin-top: 30px; text-align: center; }
+        
         .content { margin-top: 30px; color: #cbd5e1; font-size: 1.1em; }
         .steps { background: #0f172a; padding: 25px; border-radius: 8px; border-left: 4px solid #fbbf24; margin: 25px 0; }
+        .steps p { margin: 10px 0; }
+        
+        .important-note { font-size: 0.95em; color: #94a3b8; border-top: 1px solid #334155; padding-top: 20px; margin-top: 30px; }
         .email-link { color: #fbbf24; font-weight: bold; text-decoration: none; }
+        .email-link:hover { text-decoration: underline; }
+        
         .footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9em; }
     </style>
 </head>
 <body>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="account-deletion.html">Account Deletion</a>
     </nav>
+
     <div class="container">
         <h1>Account Deletion</h1>
         <h2>BearSlot Account Deletion Request</h2>
+        
         <div class="content">
             <p>We understand you wish to delete your account and personal data. To process your request, please follow these steps:</p>
+            
             <div class="steps">
-                <p><strong>1. Send an email to:</strong><br>
+                <p><strong>1. Send an email to our support address:</strong><br>
                 <a href="mailto:tuncaranca@gmail.com" class="email-link">tuncaranca@gmail.com</a></p>
-                <p><strong>2. Subject:</strong> Account Deletion Request</p>
-                <p><strong>3. Details:</strong> Include your registered email address.</p>
+                
+                <p><strong>2. Use the following subject line in your email:</strong><br>
+                "Account Deletion Request"</p>
+                
+                <p><strong>3. Provide your details:</strong><br>
+                In the body of the email, please include the email address you used to register with BearSlot so we can identify your account.</p>
             </div>
-            <p>Once we receive your request, we will permanently delete your account, user ID, email, roulette activations, and game progress. This process is final.</p>
+
+            <p>Once we receive your request, we will proceed to permanently delete your account and all associated game data from our database within a reasonable timeframe. The data to be deleted includes your <strong>user ID, email address, roulette activations, total winnings, and any other game progress</strong> stored on our servers. We do not retain any personal user data after the deletion is processed.</p>
+
+            <div class="important-note">
+                <p>Once we receive and process your request, your account and all associated data will be permanently deleted. <strong>Please note that due to the manual nature of this process, you may not receive a separate email confirmation.</strong></p>
+            </div>
         </div>
     </div>
-    <div class="footer"><p>© 2026 BearSlot. All rights reserved.</p></div>
+
+    <div class="footer">
+        <p>© 2026 BearSlot. All rights reserved.</p>
+    </div>
+
 </body>
 </html>
